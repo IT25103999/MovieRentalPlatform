@@ -1,0 +1,3 @@
+REV001|MOV001|USR001|john|5|Absolutely mind-blowing! The dream layers concept is executed brilliantly.|2026-05-08|false
+REV002|MOV002|USR002|jane|5|Heath Ledger's performance as the Joker is legendary. A masterpiece.|2026-05-10|false
+REV003|MOV003|USR001|john|4|Visually stunning and emotionally powerful. A must-watch sci-fi film.|2026-05-15|false
