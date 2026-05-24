@@ -1,0 +1,8 @@
+MOV001|Inception|Christopher Nolan|Sci-Fi|2010|4.8|125|3|5|4.99|A thief who steals corporate secrets through dream-sharing technology|true|https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg
+MOV002|The Dark Knight|Christopher Nolan|Action|2008|4.9|200|1|3|4.99|Batman faces the Joker|true|https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg
+MOV003|Interstellar|Christopher Nolan|Sci-Fi|2014|4.7|150|4|4|5.99|A team of explorers travel through a wormhole|true|https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg
+MOV004|Parasite|Bong Joon-ho|Thriller|2019|4.8|95|2|3|3.99|Greed and class discrimination|true|https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg
+MOV005|The Godfather|Francis Ford Coppola|Drama|1972|4.9|300|1|2|3.99|The aging patriarch of an organized crime dynasty|true|https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsLMd14iZLcb9.jpg
+MOV006|Pulp Fiction|Quentin Tarantino|Crime|1994|4.8|250|5|5|4.99|The lives of two mob hitmen|true|https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg
+MOV007|The Matrix|Wachowski Sisters|Sci-Fi|1999|4.7|180|3|4|4.99|A computer hacker learns about reality|true|https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg
+MOV008|Goodfellas|Martin Scorsese|Crime|1990|4.8|120|2|2|3.99|The rise and fall of a mobster|true|https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg
