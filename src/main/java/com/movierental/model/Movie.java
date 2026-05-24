@@ -19,7 +19,7 @@ public class Movie implements Serializable {
     private boolean active;
     private String posterUrl;
 
-    // Constructor
+    
     public Movie(String movieId, String title, String director, String genre,
                  int releaseYear, int totalCopies, double rentalPrice) {
         this.movieId = movieId;
