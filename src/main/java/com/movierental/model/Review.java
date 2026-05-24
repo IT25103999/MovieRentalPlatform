@@ -60,7 +60,7 @@ public class Review {
     }
 
     public static Review fromString(String line) {
-        
+        // Limit to 8 parts so any "|" inside the comment (index 5) doesn't get split
         String[] parts = line.split("\\|", 8);
         Review review = new Review(parts[0], parts[1], parts[2], parts[3],
                 Integer.parseInt(parts[4]), parts[5]);
