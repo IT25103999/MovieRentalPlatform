@@ -13,9 +13,9 @@ import java.io.IOException;
 
 @WebServlet("/rent")
 public class RentalServlet extends HttpServlet {
-    private MovieDAO movieDAO;
-    private RentalDAO rentalDAO;
-    private QueueManager queueManager;
+    public MovieDAO movieDAO;
+    public RentalDAO rentalDAO;
+    public QueueManager queueManager;
 
     @Override
     public void init() {
