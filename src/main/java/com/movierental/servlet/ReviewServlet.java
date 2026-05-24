@@ -81,7 +81,7 @@ public class ReviewServlet extends HttpServlet {
             } else {
                 session.setAttribute("error", "Failed to update review.");
             }
-            
+            // Redirect back to reviews page if movieId available, else dashboard
             if (movieId != null && !movieId.isEmpty()) {
                 response.sendRedirect(request.getContextPath() + "/pages/reviews.jsp?movieId=" + movieId);
             } else {
