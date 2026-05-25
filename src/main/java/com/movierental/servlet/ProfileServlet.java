@@ -1,6 +1,6 @@
 package com.movierental.servlet;
 
-import com.movierental.dao.RentalDAO;
+
 import com.movierental.dao.UserDAO;
 import com.movierental.model.Rental;
 import com.movierental.model.User;
