@@ -67,7 +67,7 @@ public class ReviewServlet extends HttpServlet {
                     session.setAttribute("error", "Failed to add review. Please try again.");
                 }
             }
-            
+            // Redirect back to the reviews page so user can see their review
             response.sendRedirect(request.getContextPath() + "/pages/reviews.jsp?movieId=" + movieId);
 
         } else if ("/edit".equals(path)) {
