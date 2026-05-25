@@ -147,7 +147,7 @@ public class ReviewDAO {
         } catch (IOException e) {}
         return deleted;
     }
-//use getters
+
     public List<Review> getAllReviews() {
         List<Review> reviews = new ArrayList<>();
         try {
