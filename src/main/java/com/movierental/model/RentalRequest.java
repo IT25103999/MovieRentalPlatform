@@ -3,7 +3,7 @@ package com.movierental.model;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class RentalRequest {
+private class RentalRequest {
     private String requestId;
     private String userId;
     private String movieId;
