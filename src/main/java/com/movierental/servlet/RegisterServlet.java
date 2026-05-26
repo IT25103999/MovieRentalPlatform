@@ -26,6 +26,12 @@ public class RegisterServlet extends HttpServlet {
         String email = request.getParameter("email");
         String fullName = request.getParameter("fullName");
 
+        if (password == null || password.length() < 8 || !password.matches(".*[^a-zA-Z0-9].*")) {
+            request.setAttribute("error", "Password must be at least 8 characters long and contain at least one symbol");
+            request.getRequestDispatcher("/pages/register.jsp").forward(request, response);
+            return;
+        }
+
         if (userDAO.getUserByUsername(username) != null) {
             request.setAttribute("error", "Username already exists");
             request.getRequestDispatcher("/pages/register.jsp").forward(request, response);
