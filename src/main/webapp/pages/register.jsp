@@ -124,7 +124,7 @@
                         </div>
                         <div class="field">
                             <span class="field-icon"><i class="fas fa-lock"></i></span>
-                            <input type="password" name="password" id="pwdInput" placeholder="Create a password" required oninput="checkStrength(this.value)">
+                            <input type="password" name="password" id="pwdInput" placeholder="Create a password" required minlength="8" pattern=".*[^a-zA-Z0-9].*" title="Password must be at least 8 characters long and contain at least one symbol" oninput="checkStrength(this.value)">
                             <div class="strength-bar"><div class="strength-fill" id="sf"></div></div>
                         </div>
                         <button type="submit" class="btn-main">
